@@ -9,5 +9,14 @@ export default defineSchema({
         role: v.union(v.literal("candidate"), v.literal("interviewer")),
         clerkId: v.string(),
     }).index("by_clerk_id", ["clerkId"]),
+<<<<<<< HEAD
 });
 
+=======
+<<<<<<< HEAD
+});
+=======
+});
+
+>>>>>>> 10101c7 (refactor: restructure Convex folder for improved integration)
+>>>>>>> 9336830 (feat: integrate Convex backend and base app structure with Next.js)
